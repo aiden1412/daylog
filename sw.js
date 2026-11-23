@@ -1,5 +1,5 @@
 // 오프라인에서도 앱 화면이 열리도록 앱 파일만 보관합니다. GitHub API 요청은 보관하지 않습니다.
-const CACHE = "daylog-v1";
+const CACHE = "daylog-v2";
 const FILES = ["./", "index.html", "app.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", e => {
